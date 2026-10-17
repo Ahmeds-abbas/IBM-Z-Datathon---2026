@@ -1,0 +1,14 @@
+.env
+.env.*
+.ipynb_checkpoints/
+__pycache__/
+*.gguf
+*.zip
+*.npy
+*.key
+*.pem
+*secret*
+*token*
+*lookup*
+clean_transactions.csv
+clean_transactions_sample.csv

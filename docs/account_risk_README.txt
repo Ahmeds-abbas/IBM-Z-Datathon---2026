@@ -1,0 +1,7 @@
+total_in and total_out preserve the team-plan CSV contract: they sum amount_paid in original units, with NO FX conversion. Mixed-currency sums are NOT comparable money values. total_in is a payer-quoted incoming amount proxy, NOT confirmed Amount Received. Use the by-currency audit and agree currency handling before optimising money blocked.
+
+Offline retrospective account-level OOF development evaluation. Each account row is excluded from the model that predicts it, but connected accounts can share transactions or schemes across folds. Features and labels describe the supplied complete snapshot. This is NOT time-held-out, scheme-held-out, bank-local, production, or early-intervention validation. Do not feed these snapshot scores into a past-only replay as though they were available at the earlier decision time.
+
+Step 1 selected ALL laundering-linked accounts plus 15,000 other accounts, then kept every transaction touching those selected accounts. Additional neighbours need not have their complete histories. It also dropped normal self-transfers while retaining laundering self-transfers. This is a label-enriched, label-dependent development snapshot, not a random or time-held-out deployment sample. Degree/activity and other features may reflect the selection procedure. OOF does NOT remove that bias. The explicit self_transfer_share feature is therefore excluded, but this does not repair the sampling design. Scores and metrics apply only to this supplied slice.
+
+is_laundering is evaluation only. Scores are not calibrated.
