@@ -1,0 +1,31 @@
+{
+  "checkpoints_in_requested_run": 1,
+  "explanation_source_counts": {
+    "granite_heuristic_pass_human_review_required": 7,
+    "granite_rejected_or_unavailable_structured_fallback": 3
+  },
+  "failures": [],
+  "granite_model_generation_confirmed": true,
+  "granite_request_attempted": true,
+  "granite_requested": true,
+  "granite_validated_drafts": 7,
+  "input_archive_sha256": "8f5f2473c556a92e74062cac7bd8339eaaf0f6fc34e1e9de0aafc1ba97c68253",
+  "input_checkpoints_available": 1,
+  "input_recommendations_available": 10,
+  "model_sha256s_in_archive": [
+    "f3189efb74648c85c7256037711f24041d29714c37371495e7e20efe6ef7a553"
+  ],
+  "notes": [
+    "Historical event-time replay of synthetic transaction data; no live bank connection.",
+    "2026-trained model is not a model actually deployed during 2022.",
+    "No laundering labels used to prepare these explanations.",
+    "Guardian proxy values are not actual holds, recoveries or quantified confirmed losses.",
+    "Granite output, if generated, is a separate draft; structured explanations remain the conservative investigator view."
+  ],
+  "output_csv_sha256": "6abec7a5b374e558ce9102103a71374b64e61e06c49434f0e5c436f5f1efd378",
+  "output_explanation_count": 10,
+  "status": "PASS",
+  "unique_decisions_explained": 1,
+  "unique_explained_accounts": 10,
+  "verification_scope": "record-to-output checks; not independent verification of original model, Guardian optimisation or Granite semantic correctness"
+}
